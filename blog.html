@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Blog de la Huerta</title>
+  <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
+  <header id="inicio">
+    <div class="menu container">
+
+        <!-- Logo -->
+        <a href="#inicio" class="logo">La Huerta</a>
+
+        <!-- Botón del menú hamburguesa -->
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="media/menu.png" class="menu-icono" alt="Ícono del menú">
+        </label>
+
+        <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="submenu">
+            <img src="media/car.svg" id="img-carrito" alt="Carrito de compras">
+            <div id="carrito">
+                <table id="lista-carrito">
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+            </div>
+        </div>    
+</header>
+
+  <main id="entradas">
+    <section class="entrada-blog">
+      <h2>Beneficios de las Verduras Frescas</h2>
+      <p><strong>Publicado:</strong> 12 mayo 2025</p>
+      <img src="media/Frutas1.jpg" alt="Verduras frescas" style="width:100%;max-width:600px;" />
+      <p>
+        Consumir verduras frescas de temporada fortalece tu sistema inmunológico,
+        mejora tu digestión y aporta nutrientes esenciales como vitaminas y fibra.
+      </p>
+      <a href="#">Leer más...</a>
+    </section>
+
+    <section class="entrada-blog">
+      <h2>¿Por qué elegir productos locales?</h2>
+      <p><strong>Publicado:</strong> 8 mayo 2025</p>
+      <img src="media/Frutas1.jpg" alt="Productos locales" style="width:100%;max-width:600px;" />
+      <p>
+        Comprar a productores locales apoya la economía de tu región, reduce la huella
+        de carbono y asegura frescura en cada alimento.
+      </p>
+      <a href="#">Leer más...</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+      <div class="footer-content container">
+          
+          <div class="link">
+          <h3>Corporativo</h3>
+          <ul>
+              <li> <a href="#">Nosotros</a></li>
+              <li> <a href="#">Todos los productos</a></li>
+          </ul>
+      </div>
+
+      <div class="link">
+          <h3>Enlaces de interes</h3>
+          <ul>
+              <li> <a href="#">Politicas de Privacidad</a></li>
+              <li> <a href="#">Detalles de envio</a></li>
+          </ul>
+      </div>
+
+      <div class="link">
+          <h3>Conoce más</h3>
+          <ul>
+              <li> <a href="#">Términos y condiciones</a></li>
+              <li> <a href="#">Tratamiento de datos</a></li>
+          </ul>
+      </div>
+  </div>
+
+    <p>Contacto: <a href="mailto:info@lahuerta.com">info@lahuerta.com</a></p>
+  </footer>
+
+</body>
+</html>
