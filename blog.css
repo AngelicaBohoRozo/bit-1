@@ -208,30 +208,4 @@ header {
   display: none;
 }
 
-.submenu:hover #carrito {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  z-index: 1;
-  background-color: #477f43;
-  padding: 20px;
-  min-width: 400px;
-}
 
-table {
-  width: 100%;
-}
-
-th, td {
-  color: #ffffff;
-}
-
-.borrar {
-  background-color: #8dc48b;
-  border-radius: 50%;
-  padding: 5px 10px;
-  color: #ffffff;
-  font-weight: 800;
-  cursor: pointer;
-}

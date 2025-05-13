@@ -12,6 +12,7 @@ Página web sobre el FRUVER orque me gustan las frutas y me aprecio interesante 
 Gracias!
 
 ## DISEÑO:
-![Diseño](image.png)
+FIGMA: (image.png)
+
 ### Autor
 Angelica Bohórquez R
